@@ -15,7 +15,7 @@ const handleLogin = async (googleData) => {
   });
   const data = await res.json();
   // store returned user somehow
-  console.log(data);
+  console.error(data);
 };
 
 export default function GoLogin({ clientId }) {
