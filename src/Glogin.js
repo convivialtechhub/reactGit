@@ -13,9 +13,9 @@ const handleLogin = async (googleData) => {
       "Content-Type": "application/json",
     },
   });
-  const data = await res.json();
+  const data1 = await res.json();
   // store returned user somehow
-  console.error(data);
+  console.error(data1);
 };
 
 export default function GoLogin({ clientId }) {
